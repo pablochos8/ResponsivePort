@@ -1,0 +1,29 @@
+header nav{
+    flex-direction: row;
+}
+header nav .head-logo{
+    width: 50%;
+    justify-content: start;
+    padding-left: 2rem;
+}
+header nav .nav-menu{
+    width: 50%;
+    flex-direction: row;    
+}
+header nav ul{
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 1.5rem;
+}
+header nav ul a{
+    margin: 2rem;
+}
+main .main-welcome-text {
+    display: flex;
+    justify-content: start;
+    margin-left: 5%;
+}
+main .main-welcome-text pre{
+    margin: 5rem 0;
+}
+

@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+html{
+    font-size: 62.5%;
+}
+
+header{
+    width: 100%;
+    height: auto;
+    background-color: #132b37;
+}
+
+header nav{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+header nav .head-logo{
+    font-size: 3rem;
+    font-family: pacifico;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+header nav .nav-menu{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 100%;
+}
+
+header nav ul{
+    margin: 0 auto;
+    list-style: none;
+    font-size: 1.4rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header nav ul li{
+    margin: 0.5rem 0;
+}
+
+header nav ul a{
+    text-decoration: none;
+    color: #c6c6c6;
+}
+
+main .main-welcome{
+    width: 100%;
+    height: 25rem;
+    background-image: url('https://images.pexels.com/photos/158678/garage-door-texture-wooden-wall-panels-158678.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+main .main-welcome pre{
+    font-size: 2.2rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    text-align: justify;
+    padding: 1rem 1rem;
+    color: cyan;
+    margin-left: 5%;
+}
+
+main .main-welcome span{
+    color: wheat;
+}
+
+main .main-welcome img{
+    width: 5rem;
+    visibility: hidden;
+}
+
+
+main section .City{
+    width: 90%;
+    height: 40rem;
+    border: 1px solid rgba(128, 166, 184, 0.8);
+    border-radius: 0.5rem;
+    margin: 2rem auto;
+}
