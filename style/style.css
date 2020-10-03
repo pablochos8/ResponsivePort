@@ -112,16 +112,18 @@ main section .Nature .box-img{
 }
 
 main section .City img{
-    width: 50%;
+    height: 95%;
 }
 
 main section .Geometric img{
     width: 100%;
+    height: 100%;
     border-radius: 0.5rem;
 }
 
 main section .Nature img{
     width: 100%;
+    height: 100%;
     border-radius: 0.5rem;
 }
 
@@ -133,6 +135,7 @@ main section .box .box-text{
     flex-flow: row;
     flex-wrap: wrap;
     justify-content: center;
+    padding-top: 3rem;
 }
 
 main section .box h2{
